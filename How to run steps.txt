@@ -1,0 +1,14 @@
+//Follow the steps: 
+1. Compile : 
+cmd $> node compile.js
+..this will create the build folder with the ABI jsons. 
+
+2. Deploy : 
+cmd $> node deploy.js
+
+..will use the accounts (created identical with the metamask).
+Attempting to deploy from account 0x06e02B72Cd2390Ed9423F8c329DE42be1Fe35647
+Contract successfully deploy to address: 0x9A9f82B30D9740D7c02411A33f23530Ea2936ec3
+
+3. cmd $> npm run dev
+to bring up the webserver. 
